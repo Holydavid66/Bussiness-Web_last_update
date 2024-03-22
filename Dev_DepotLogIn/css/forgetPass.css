@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+section {
+    width: 1200px;
+    margin: auto;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form {
+    width: 420px;
+    height: 460px;
+    padding: 40px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.container form .col-12 {
+    text-align: center;
+}
+
+.container form .col-12 .fa-circle-exclamation {
+    font-size: 62px;
+    color: #667be4;
+}
+
+.container form .col-12 h1 {
+    font-size: 24px;
+    color: #525050;
+    margin: 20px 0 5px 0;
+}
+
+.container form .col-12 p {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.container form .col-12 .new-pass,
+.container form .col-12 .pass {
+    position: relative;
+}
+
+.container form .col-12 .new-pass input,
+.container form .col-12 .pass input {
+    width: 100%;
+    padding: 12px 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eee;
+    margin-top: 10px;
+}
+
+.container form .col-12 .new-pass i,
+.container form .col-12 .pass i {
+    background-color: #eee;
+    color: #9290C3;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.container form .col-12 .submit-btn {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: none;
+    background-color: #9290C3;
+    margin: 40px 0 10px 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container form .col-12 .submit-btn:hover {
+    background-color: #535C91;
+}
+
+.container form .col-12 .back-to-home {
+    font-size: 14px;
+    color: #9290C3;
+}
+
+.container form .col-12 .back-to-home:hover {
+    color: #535C91;
+}

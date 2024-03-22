@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design From Register</title>
+    <link rel="stylesheet" href="reStyle.css">
+
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-6">
+                                <img class="document" src="photo/Online document-amico (1).png" alt="">
+                                <img class="person" src="photo/Server-amico.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <div class="login-detail">
+                                    <h1>Register Now</h1>
+                                    <hr>
+                                    <div class="line"></div>
+                                    <div class="mb-3">
+                                      <div class="FirstName">
+                                        <input type="text" class="form-controll" id="fname" placeholder="First name" name="txtfname" required="required">
+                                      </div>
+                                      <div class="lastName">
+                                        <input type="text" class="form-controll"  id="lname" placeholder="Last name" name="txtlname" required="required">
+                                      </div>
+                                    </div>
+                                    <div class="E-mail">
+                                        <input type="email" class="form-controll" id="myEmail" placeholder="Enter your e-mail" name="txt-email" required="required">
+                                    </div>
+                                    <div class="PhoneNum">
+                                        <input type="text" class="form-controll" id="myPhonenumber" placeholder="Enter your phone number" required="required">
+                                    </div>
+                                    <div class="password">
+                                        <input type="text" class="form-controll" id="password" placeholder="Enter your password" required="required">
+                                    </div>
+                                    <div class="re-password">
+                                        <input type="text" class="form-controll" id="repassword" placeholder="Confirm password*" required="required">
+                                    </div>
+                                    
+                                    <div class="checkbox-container">
+                                        <input type="checkbox" class="checks" id="agree" name="agree">
+                                        <label for="agree">I agree to the terms</label>
+                                    </div>
+                                         
+                                    <button class="signup-btn" id="register">Register</button>
+                                    <p class="login">already has an account? <a href="../Dev_DepotLogIn/html/index.html">log in</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/e2eba9b32b.js" crossorigin="anonymous"></script>
+    <script>
+        let submit = document.getElementById("register");
+
+        submit.onclick = (event) => {
+            event.preventDefault();
+            
+            window.location.href = "../Dev_DepotLogIn/html/index.html";
+        }
+    </script>
+
+</body>
+</html>

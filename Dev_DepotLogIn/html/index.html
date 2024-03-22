@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Dev Deport Login</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="login-detail">
+                                    <h1>Welcome back!</h1>
+                                    <hr>
+                                    <div class="line"></div>
+                                    <div class="username">
+                                        <i class="fa-solid fa-user"></i>
+                                        <input type="text" id="username" placeholder="Enter username" required="required">
+                                    </div>
+                                    <div class="password">
+                                        <i class="fa-solid fa-lock"></i>
+                                        <input type="password" id="myPassword" placeholder="Enter password" required="required">
+                                    </div>
+                                    <a class="reset-pass" href="forgetPassPage.html">forget password?</a>
+                                    <button class="login-btn" id="login" type="submit">Log In</button>
+                                    <p>don't have an account <a class="sign-up" href="../../Dev_Register/Register.html">Sign Up</a></p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <img class="document" src="../img/Online document-amico (1).png" alt="">
+                                <img class="person" src="../img/Server-amico.png" alt="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/e2eba9b32b.js" crossorigin="anonymous"></script>
+    <script>
+        let submit = document.getElementById("login");
+
+        submit.onclick = (event) => {
+            event.preventDefault();
+            
+            window.location.href = "../../index.html";
+        }
+    </script>
+</body>
+
+</html>
